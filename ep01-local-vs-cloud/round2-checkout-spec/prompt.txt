@@ -1,0 +1,1 @@
+Implement shop/checkout.py exactly as described in SPEC.md. Some visible tests are in tests/ (do NOT modify anything under tests/); your code will also be graded by additional hidden tests covering the rest of the spec, so follow the spec carefully. Run the visible tests with: python3 -m unittest -v.

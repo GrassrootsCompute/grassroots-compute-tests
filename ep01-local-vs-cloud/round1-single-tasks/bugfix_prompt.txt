@@ -1,0 +1,1 @@
+The tests in tests/test_cart.py fail. Fix the code in shop/ so that all tests pass. Do NOT modify anything under tests/. Run the tests with: python3 -m unittest -v. When done, briefly list each bug you fixed.

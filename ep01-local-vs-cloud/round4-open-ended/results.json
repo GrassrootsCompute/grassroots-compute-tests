@@ -1,0 +1,13 @@
+{
+ "sonnet": {
+  "seconds": 282,
+  "turns": 13,
+  "is_error": false
+ },
+ "local": {
+  "seconds": 696,
+  "turns": 19,
+  "is_error": false
+ },
+ "note": "open-ended task, no hidden tests; judged by reading the explanation and the code."
+}

@@ -1,0 +1,23 @@
+{
+ "chat": {
+  "prompt_tokens": 80,
+  "completion_tokens": 252,
+  "ttft": 3.1,
+  "total": 9.4,
+  "decode_tps": 40.2
+ },
+ "code": {
+  "prompt_tokens": 120,
+  "completion_tokens": 843,
+  "ttft": 3.08,
+  "total": 30.5,
+  "decode_tps": 30.7
+ },
+ "summary": {
+  "prompt_tokens": 8205,
+  "completion_tokens": 1228,
+  "ttft": 16.31,
+  "total": 57.2,
+  "decode_tps": 30.1
+ }
+}

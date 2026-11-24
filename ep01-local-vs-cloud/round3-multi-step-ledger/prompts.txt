@@ -1,0 +1,16 @@
+STEP1|||This is a small personal-ledger project (package `ledger/`, tests in `tests/`). Please add category support:
+- `Txn` gets a `category` field (string, default "uncategorized").
+- The JSON store must save the category, and must still load older files that have no category (those become "uncategorized").
+- `summary()` returns a new key `by_category`: a dict mapping each category to the net amount (income minus spending, as a Decimal) of that month's transactions in it.
+- CLI: `add` accepts `--category NAME`; `report` output includes `by_category` (values as strings, like the other numbers).
+- Add tests for the new behaviour in `tests/`. Keep all existing tests passing (`python3 -m unittest -v`).
+STEP2|||Next: multi-currency support.
+- `Txn` gets a `currency` field (3-letter code, default "XBS"), saved/loaded like category (old files without it -> "XBS").
+- `summary(txns, year, month, rates=None)`: `rates` is a dict like {"USD": Decimal("1.70")} meaning 1 unit of that currency = that many XBS. Every amount is converted to XBS before any totals; XBS itself always has rate 1 even if not in `rates`. If a transaction's currency is not XBS and not in `rates` (or `rates` is None), raise ValueError whose message contains that currency code.
+- Keep full precision while adding up; round income, spend, net and every by_category value to cents (half-up) at the end. `net` must equal rounded income minus rounded spend.
+- CLI: `add --currency CODE`; `report --rates PATH` where PATH is a JSON file like {"USD": "1.70"}.
+- Update/add tests. Everything must still pass.
+STEP3|||Two more things:
+1. Bug report from a user: `report 2026 2` includes a transaction dated 2026-03-01. Find and fix the root cause, and add a regression test (also cover December -> January).
+2. Add an `export` command: `python3 -m ledger.cli --file PATH export YEAR MONTH` prints that month's transactions as CSV to stdout, header `date,amount,currency,category,note`, one row per transaction sorted by date (ties keep the stored order), amounts exactly as stored (original currency, not converted). Notes containing commas or quotes must be quoted correctly (use the csv module, "\n" line endings).
+Add tests, keep everything passing.

@@ -1,0 +1,18 @@
+{
+ "note": "hidden tests: 10; both pass 10/10. Times from the run logs: Sonnet 4.6 71 s / 7 turns; local 356 s / 18 turns. Ollama qwen3.8:27b (64K ctx): 40-minute limit hit with no file written.",
+ "sonnet": {
+  "seconds": 71,
+  "turns": 7,
+  "hidden_passed": "10/10"
+ },
+ "local": {
+  "seconds": 356,
+  "turns": 18,
+  "hidden_passed": "10/10"
+ },
+ "ollama_27b": {
+  "seconds": 2400,
+  "turns": null,
+  "hidden_passed": "0/10 (no file written within the limit)"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "sonnet": {
+  "seconds": 147,
+  "turns": 36,
+  "fixed": 7,
+  "of": 12,
+  "missed": [
+   "r022_share",
+   "r028_cat_spend",
+   "r064_refunds",
+   "r095_merchant_avg",
+   "r099_cat_spend"
+  ],
+  "broke_compliant_modules": []
+ },
+ "sonnet2": {
+  "seconds": 210,
+  "turns": 63,
+  "fixed": 8,
+  "of": 12,
+  "missed": [
+   "r015_daily_avg",
+   "r017_merchant_avg",
+   "r028_cat_spend",
+   "r046_biggest"
+  ],
+  "broke_compliant_modules": []
+ },
+ "sonnet3": {
+  "seconds": 137,
+  "turns": 39,
+  "fixed": 4,
+  "of": 12,
+  "missed": [
+   "r015_daily_avg",
+   "r017_merchant_avg",
+   "r022_share",
+   "r028_cat_spend",
+   "r046_biggest",
+   "r064_refunds",
+   "r095_merchant_avg",
+   "r099_cat_spend"
+  ],
+  "broke_compliant_modules": []
+ },
+ "local": {
+  "seconds": 1460,
+  "turns": 80,
+  "fixed": 12,
+  "of": 12,
+  "missed": [],
+  "broke_compliant_modules": []
+ },
+ "local2": {
+  "seconds": 1287,
+  "turns": 67,
+  "fixed": 12,
+  "of": 12,
+  "missed": [],
+  "broke_compliant_modules": []
+ },
+ "local3": {
+  "seconds": 851,
+  "turns": 51,
+  "fixed": 8,
+  "of": 12,
+  "missed": [
+   "r015_daily_avg",
+   "r017_merchant_avg",
+   "r028_cat_spend",
+   "r046_biggest"
+  ],
+  "broke_compliant_modules": []
+ }
+}

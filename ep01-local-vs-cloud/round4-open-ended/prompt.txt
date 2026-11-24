@@ -1,0 +1,3 @@
+This is a small personal-ledger CLI (package `ledger/`, tests in `tests/`). Feedback from users: "At the end of the month I never know whether I overspent until it's too late."
+Decide for yourself how to improve the tool to address this. You may add features, change the data model or restructure code, but keep existing behaviour and the existing tests working, and add tests for what you build.
+Keep the scope sensible for one sitting. When you are done, explain: what you decided to build and why, what alternatives you considered and deliberately did not do, and how a user would use it (example commands).
