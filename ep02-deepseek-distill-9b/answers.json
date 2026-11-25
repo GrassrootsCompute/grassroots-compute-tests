@@ -1,0 +1,165 @@
+{
+ "M01": {
+  "answer": "131.22",
+  "kind": "decimal",
+  "places": 2
+ },
+ "M02": {
+  "answer": "169",
+  "kind": "int"
+ },
+ "M03": {
+  "answer": "18.5",
+  "kind": "decimal",
+  "places": 1
+ },
+ "M04": {
+  "answer": "115",
+  "kind": "int"
+ },
+ "M05": {
+  "answer": "4692.00",
+  "kind": "decimal",
+  "places": 2
+ },
+ "M06": {
+  "answer": "36.00",
+  "kind": "decimal",
+  "places": 2
+ },
+ "M07": {
+  "answer": "1484.42",
+  "kind": "decimal",
+  "places": 2
+ },
+ "M08": {
+  "answer": "103925.62",
+  "kind": "decimal",
+  "places": 2
+ },
+ "M09": {
+  "answer": "6.14",
+  "kind": "decimal",
+  "places": 2
+ },
+ "M10": {
+  "answer": "42",
+  "kind": "int"
+ },
+ "M11": {
+  "answer": "4528",
+  "kind": "int"
+ },
+ "M12": {
+  "answer": "176",
+  "kind": "int"
+ },
+ "M13": {
+  "answer": "1/3",
+  "kind": "fraction"
+ },
+ "M14": {
+  "answer": "10",
+  "kind": "int"
+ },
+ "M15": {
+  "answer": "8.3137",
+  "kind": "decimal",
+  "places": 4
+ },
+ "M16": {
+  "answer": "10.3078",
+  "kind": "decimal",
+  "places": 4
+ },
+ "M17": {
+  "answer": "946",
+  "kind": "int"
+ },
+ "M18": {
+  "answer": "250",
+  "kind": "int"
+ },
+ "M19": {
+  "answer": "73/165",
+  "kind": "fraction"
+ },
+ "M20": {
+  "answer": "131",
+  "kind": "int"
+ },
+ "S01": {
+  "answer": "6.54",
+  "kind": "decimal",
+  "places": 2
+ },
+ "S02": {
+  "answer": "4.74",
+  "kind": "decimal",
+  "places": 2
+ },
+ "S03": {
+  "answer": "12.0",
+  "kind": "decimal",
+  "places": 1
+ },
+ "S04": {
+  "answer": "-4.62",
+  "kind": "decimal",
+  "places": 2
+ },
+ "S05": {
+  "answer": "0.80",
+  "kind": "decimal",
+  "places": 2
+ },
+ "S06": {
+  "answer": "0.100",
+  "kind": "decimal",
+  "places": 3
+ },
+ "S07": {
+  "answer": "6.79",
+  "kind": "decimal",
+  "places": 2
+ },
+ "S08": {
+  "answer": "48.3",
+  "kind": "decimal",
+  "places": 1
+ },
+ "S09": {
+  "answer": "4.57",
+  "kind": "decimal",
+  "places": 2
+ },
+ "S10": {
+  "answer": "208.9",
+  "kind": "decimal",
+  "places": 1
+ },
+ "C01": {
+  "answer": "见 coding/test_C01.py",
+  "kind": "code"
+ },
+ "C02": {
+  "answer": "见 coding/test_C02.py",
+  "kind": "code"
+ },
+ "C03": {
+  "answer": "见 coding/test_C03.py",
+  "kind": "code"
+ },
+ "C04": {
+  "answer": "见 coding/test_C04.py",
+  "kind": "code"
+ },
+ "C05": {
+  "answer": "见 coding/test_C05.py",
+  "kind": "code"
+ },
+ "C06": {
+  "answer": "见 coding/test_C06.py",
+  "kind": "code"
+ }
+}
