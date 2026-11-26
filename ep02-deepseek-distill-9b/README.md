@@ -1,5 +1,7 @@
 # 第二期：DeepSeek 蒸馏版 9B 实测（Episode 2: DeepSeek-V4-Pro distilled 9B）
 
+视频：https://youtu.be/zivxjL26IcA
+
 36 道新出的题（数学 20、理科 10、编程 6），四位考生：
 
 | 考生 | 怎么跑 |
