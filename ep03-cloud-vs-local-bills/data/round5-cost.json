@@ -1,0 +1,64 @@
+{
+ "note": "第 1 期第 5 轮（120 个文件、12 个 bug）。Claude 的费用取自 Claude Code 每次运行结束时输出的 total_cost_usd（按官方价格计）；用时、修对数与 ep01-local-vs-cloud/round5-long-audit/results.json 一致。",
+ "claude_code": [
+  {
+   "run": "sonnet",
+   "model": "claude-sonnet-4-6",
+   "total_cost_usd": 1.034492,
+   "duration_s": 143.4,
+   "num_turns": 36,
+   "input_tokens": 34,
+   "output_tokens": 9905,
+   "cache_read_tokens": 1672396,
+   "cache_write_tokens": 64016,
+   "bugs_fixed": 7,
+   "of": 12
+  },
+  {
+   "run": "sonnet2",
+   "model": "claude-sonnet-4-6",
+   "total_cost_usd": 1.204718,
+   "duration_s": 208.6,
+   "num_turns": 63,
+   "input_tokens": 28,
+   "output_tokens": 15624,
+   "cache_read_tokens": 1551825,
+   "cache_write_tokens": 84121,
+   "bugs_fixed": 8,
+   "of": 12
+  },
+  {
+   "run": "sonnet3",
+   "model": "claude-sonnet-4-6",
+   "total_cost_usd": 0.834563,
+   "duration_s": 136.3,
+   "num_turns": 39,
+   "input_tokens": 19,
+   "output_tokens": 11415,
+   "cache_read_tokens": 858397,
+   "cache_write_tokens": 67627,
+   "bugs_fixed": 4,
+   "of": 12
+  }
+ ],
+ "local": [
+  {
+   "run": "local",
+   "seconds": 1460,
+   "bugs_fixed": 12,
+   "of": 12
+  },
+  {
+   "run": "local2",
+   "seconds": 1287,
+   "bugs_fixed": 12,
+   "of": 12
+  },
+  {
+   "run": "local3",
+   "seconds": 851,
+   "bugs_fixed": 8,
+   "of": 12
+  }
+ ]
+}
